@@ -13,10 +13,11 @@ Short answer: export diagnostics when you report a bug so maintainers can see lo
 ## Steps
 
 1. Reproduce the problem in the same app session if possible.
-2. Open Settings.
-3. Choose Export Diagnostics.
-4. Save the generated bundle.
-5. Attach the bundle to your issue or tester thread.
+2. Open Settings → System → **Diagnostics**.
+3. Choose what to include: system info, hardware, server logs, browser console, plugin diagnostics.
+4. Click **Preview Bundle** to see what will be shared, if you want.
+5. Click **Export Diagnostics** and save the `.zip` file.
+6. Attach the file to your issue or tester thread.
 
 ## What To Include With It
 
@@ -28,7 +29,7 @@ Short answer: export diagnostics when you report a bug so maintainers can see lo
 
 ## Privacy Note
 
-Diagnostics are meant for debugging. Review the bundle before sharing if you are concerned about local paths, device names, or logs.
+**Redact paths & song names** is on by default. It removes library paths, song file names, and IP addresses from the bundle. Device names and log lines stay in, so use **Preview Bundle** if you want to check before sharing.
 
 ## Related Pages
 

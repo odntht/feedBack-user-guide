@@ -18,9 +18,9 @@ Short answer: if the desktop app will not install or launch, confirm the correct
 
 ## macOS
 
-- Confirm the app is allowed to run.
+- Builds are for Apple Silicon (M1 or newer) only. Intel Macs are not supported yet.
+- If macOS refuses to open the app, see [If macOS Blocks the App](../install/macos.md#if-macos-blocks-the-app).
 - Confirm microphone permissions if setup cannot hear input.
-- Use the correct build for your Mac.
 
 ## Linux
 
