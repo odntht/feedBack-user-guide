@@ -77,8 +77,19 @@ docker run -d --name feedback --restart unless-stopped \
 
 ### Updating
 
-1. Change the image tag to the new version.
+With Docker Compose:
+
+1. Change the image tag in `docker-compose.yml` to the new version.
 2. Run `docker compose pull`, then `docker compose up -d`.
+
+With `docker run`, remove the old container and start a new one with the new tag:
+
+```bash
+docker pull ghcr.io/got-feedback/feedback:<new-version>
+docker stop feedback && docker rm feedback
+```
+
+Then run the `docker run` command above again, with the new tag.
 
 Your songs and settings stay in the `library` and `config` folders.
 
