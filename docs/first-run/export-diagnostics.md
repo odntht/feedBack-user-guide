@@ -29,7 +29,7 @@ Short answer: export diagnostics when you report a bug so maintainers can see lo
 
 ## Privacy Note
 
-**Redact paths & song names** is on by default. It removes library paths, song file names, and IP addresses from the bundle. Device names and log lines stay in, so use **Preview Bundle** if you want to check before sharing.
+**Redact paths & song names** is on by default. It replaces library paths, your home folder, song file names, and IP addresses with placeholder tokens such as `<DLC_DIR>` or `<song:a3f1c2>`, and replaces tokens and keys with `<redacted>`. Device names and log lines stay in, so use **Preview Bundle** if you want to check before sharing.
 
 ## Related Pages
 

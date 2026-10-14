@@ -13,7 +13,7 @@ The release also has a Portable `.zip`. Unzip it and move the app to Application
 
 ## If macOS Blocks the App
 
-Nightly and test builds are signed but not notarized, so macOS may refuse to open them. Clear the quarantine flag once, then open the app again:
+Nightly and test builds are signed but not notarized, so macOS may refuse to open them. Clear the quarantine flag once, then open the app again. If you put the app somewhere other than Applications (for example, after unzipping the Portable `.zip`), use that path instead:
 
 ```bash
 xattr -dr com.apple.quarantine "/Applications/fee[dB]ack.app"

@@ -1,6 +1,6 @@
 # Settings Overview
 
-Short answer: Settings is where you manage audio devices, plugins, diagnostics, updates, and app preferences.
+Short answer: Settings is where you manage gameplay, plugins, diagnostics, updates, and app preferences. Audio devices are picked on the separate Audio screen in the desktop app.
 
 ## Common Settings Areas
 
