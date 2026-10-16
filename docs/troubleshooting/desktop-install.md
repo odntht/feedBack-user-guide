@@ -12,7 +12,7 @@ Short answer: if the desktop app will not install or launch, confirm the correct
 
 ## Windows
 
-- SmartScreen may warn on first run.
+- SmartScreen may warn on first run. See [If Windows Blocks the Installer](../install/windows.md#if-windows-blocks-the-installer).
 - Antivirus tools can quarantine new builds.
 - Audio interfaces may need vendor drivers.
 
@@ -24,7 +24,7 @@ Short answer: if the desktop app will not install or launch, confirm the correct
 
 ## Linux
 
-- AppImage files may need executable permission.
+- AppImage files may need executable permission. On distributions without native AppImage support, see [Distributions Without AppImage Support](../install/linux.md#distributions-without-appimage-support).
 - Package dependencies may vary by distribution.
 - Audio routing depends on the local audio stack.
 
