@@ -114,7 +114,7 @@ docker pull ghcr.io/got-feedback/feedback:<new-version>
 docker stop feedback && docker rm feedback
 ```
 
-Then run the `docker run` command above again, with the new tag.
+Then run the `docker run` command above again, with the new tag, from the same folder you ran it in the first time. `$PWD` is the current folder, so running it from somewhere else mounts different, empty `library` and `config` folders. To avoid this, replace `$PWD` with the absolute path of that folder.
 
 Your songs and settings stay in the `library` and `config` folders.
 
